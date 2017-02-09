@@ -24,11 +24,6 @@ def youtube(sock):
     msg = "I'm also on YouTube, you can find various videos and Lets Plays on there! https://www.youtube.com/channel/UCuE7BgKOUd-CO6RgSLlYY0Q"
     chat(sock, msg)
 
-# Hype function
-def hype(sock):
-    msg = "╲⎝⧹╲⎝⧹ PogChamp ⧸⎠╱⧸╱"
-    chat(sock, msg)
-
 # New 1.5 All Worlds Route function
 def route(sock):
     msg = "The new route can be found here http://pastebin.com/2qc347zY"
