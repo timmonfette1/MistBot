@@ -22,4 +22,4 @@ For Windows, follow these steps:
 * The Bot will be running now and you can kill it by either closing the window it opens up or pressing CTRL + C.
 
 For any Unix based OS, simply download the code, change the config.py to include the oauth token and run:
-* $ python mistBoy.py
+* python mistBoy.py
