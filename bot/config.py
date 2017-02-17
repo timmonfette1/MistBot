@@ -1,8 +1,8 @@
 #################
 #  MistBot - Chat Bot
-#  Version: 1.1
+#  Version: 15.
 #  Author: Tim Monfette (Timmiluvs)
-#  Date: 01/27/2017
+#  Date: 02/17/2017
 ##################
 
 # config.py
