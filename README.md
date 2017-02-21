@@ -23,3 +23,5 @@ For Windows, follow these steps:
 
 For any Unix based OS, simply download the code, change the config.py to include the oauth token and run:
 * python mistbot.py
+
+Once again, make sure you're using Python 2.7.12.
