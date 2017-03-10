@@ -24,7 +24,7 @@ def youtube(sock):
     msg = "I'm also on YouTube, you can find various videos and Lets Plays on there! https://www.youtube.com/channel/UCuE7BgKOUd-CO6RgSLlYY0Q"
     chat(sock, msg)
 
-# General FAQ function; replace Pastebin as needed
-def faq(sock):
-    msg = "FAQ is here: http://pastebin.com/7Fvz66kr"
+# Changes between PS3 and PS4 1.5 function
+def changes(sock):
+    msg = "Changes between PS3 and PS4 can be found here: http://pastebin.com/Ab8qbNGQ"
     chat(sock, msg)

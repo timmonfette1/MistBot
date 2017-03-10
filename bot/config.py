@@ -15,4 +15,4 @@ PASS = "xxxxxxxxxxxxxxx"     # Add at run time
 CHAN = '#themistmaster1'
 
 # Commands to recognize
-PATT = [r"!twitter", r"!youtube", r"!faq"]
+PATT = [r"!twitter", r"!youtube", r"!changes"]
