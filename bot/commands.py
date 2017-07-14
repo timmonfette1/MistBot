@@ -1,8 +1,7 @@
 #################
-#  MistBot - Chat Bot
-#  Version: 1.5
+#  PlayET - Chat Bot
+#  Version: 0.5
 #  Author: Tim Monfette (Timmiluvs)
-#  Date: 02/17/2017
 ##################
 
 # commands.py
@@ -16,15 +15,5 @@ def chat(sock, message):
 
 # Twitter funciton
 def twitter(sock):
-    msg = "You can follow my Twitter for updates on when I'll be live as well as other thoughts in my head! https://twitter.com/mist_master1"
-    chat(sock, msg)
-
-# Youtube function
-def youtube(sock):
-    msg = "I'm also on YouTube, you can find various videos and Lets Plays on there! https://www.youtube.com/channel/UCuE7BgKOUd-CO6RgSLlYY0Q"
-    chat(sock, msg)
-
-# Changes between PS3 and PS4 1.5 function
-def changes(sock):
-    msg = "Changes between PS3 and PS4 can be found here: http://pastebin.com/Ab8qbNGQ"
+    msg = "You can follow me on Twitter at https://twitter.com/timmiluvs"
     chat(sock, msg)

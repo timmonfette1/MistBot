@@ -1,8 +1,7 @@
 #################
-#  MistBot - Chat Bot
-#  Version: 15.
+#  PlayET - Chat Bot
+#  Version: 0.5
 #  Author: Tim Monfette (Timmiluvs)
-#  Date: 02/17/2017
 ##################
 
 # config.py
@@ -10,9 +9,9 @@
 
 HOST = "irc.twitch.tv"
 PORT = 6667
-NICK = "themistbot"
+NICK = "playet_"
 PASS = "xxxxxxxxxxxxxxx"     # Add at run time
-CHAN = '#themistmaster1'
+CHAN = '#timmiluvs'
 
 # Commands to recognize
-PATT = [r"!twitter", r"!youtube", r"!changes"]
+PATT = [r"!twitter"]

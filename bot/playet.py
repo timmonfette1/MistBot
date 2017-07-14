@@ -1,11 +1,10 @@
 #################
-#  MistBot - Chat Bot
-#  Version: 1.5
+#  PlayET - Chat Bot
+#  Version: 0.5
 #  Author: Tim Monfette (Timmiluvs)
-#  Date: 02/17/2017
 ##################
 
-# bot.py
+# playet.py
 # Bot functionality
 
 import config
