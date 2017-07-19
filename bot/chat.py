@@ -15,20 +15,16 @@ def chat(sock, message):
 
 # Execute a command
 def executeCommand(sock, command):
-    try:
-        msg = config.CL[command][1]
-        chat(sock, msg)
-    except KeyError, e:
-        None
+    msg = config.CL[command][1]
+    chat(sock, msg)
 
 # Check user permission for a command
 def checkPermission(modCheck, command):
-    try: 
-        if (("broadcaster" in modCheck) or ("moderator" in modCheck)):
-            return True
+    if (("broadcaster" in modCheck) or ("moderator" in modCheck)):
+        return True
+    else:
+        comLevel = config.CL[command][0]
+        if comLevel is not "all":
+            return False
         else:
-            comLevel = config.CL[command][0]
-            if comLevel is not "all":
-                return False
-    except KeyError, e:
-        None
+            return True
