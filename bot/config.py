@@ -12,6 +12,4 @@ PORT = 6667
 NICK = "playet_"
 PASS = "xxxxxxxxxxxxxxx"     # Add at run time
 CHAN = '#timmiluvs'
-
-# Commands to recognize
-PATT = [r"!twitter"]
+CL = {}
